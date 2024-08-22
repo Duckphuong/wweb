@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Ghibli Cinema Login</title>
+
+        <link rel="stylesheet" type="text/css" href="site_styles.css">
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js" 
+                integrity="sha256-u0L8aA6Ev3bY2HI4y0CAyr9H8FRWgX4hZ9+K7C2nzdc=" 
+                crossorigin="anonymous"></script>
+
+        <link href="https://code.jquery.com/ui/1.14.0/themes/ui-lightness/jquery-ui.css">
+
+    </head>
+
+    <body>
+
+        <!-- <div class="slideshow-container">
+
+            <div class="container">
+
+                <button id="singin-button" class="my-button">Đăng nhập</button>
+                <button id="login-button" class="my-button">Đăng ký</button>
+    
+            </div>
+            
+            <div class="slide"><img src="resources/fromuponpoppyhills1.jpg" alt="Pic 1"></div>
+            <div class="slide"><img src="resources/ponyo1.jpg" alt="Pic 2"></div>
+            <div class="slide"><img src="resources/howlsmovingcastle1.jpg" alt="Pic 3"></div>
+            <div class="slide"><img src="resources/fromuponpoppyhills2.jpg" alt="Pic 4"></div>
+            <div class="slide"><img src="resources/ponyo2.jpg" alt="Pic 5"></div>
+            <div class="slide"><img src="resources/howlsmovingcastle2.jpg" alt="Pic 6"></div>
+            <div class="slide"><img src="resources/fromuponpoppyhills3.jpg" alt="Pic 7"></div>
+            <div class="slide"><img src="resources/ponyo3.jpg" alt="Pic 8"></div>
+            <div class="slide"><img src="resources/howlsmovingcastle3.jpg" alt="Pic 9"></div>
+            <div class="slide"><img src="resources/fromuponpoppyhills4.jpg" alt="Pic 10"></div>
+            <div class="slide"><img src="resources/ponyo4.jpg" alt="Pic 11"></div>
+            <div class="slide"><img src="resources/howlsmovingcastle4.jpg" alt="Pic 12"></div>
+            <div class="slide"><img src="resources/myneighbourtotoro1.jpg" alt="Pic 13"></div>
+
+            <img id="mini-img1" src="resources/Remove-bg.ai_1724189804113.png" alt="Mini Totoro">
+            <img id="mini-img2" src="resources/Remove-bg.ai_1724190371890.png" alt="Mini Totoro">
+            <img id="mini-img3" src="resources/Remove-bg.ai_1724190676813.png" alt="Sosuke and Ponyo">
+
+            <h1>Ghibli</h1>
+            <br>
+            <h2>CINEMA</h2>
+        
+        </div> -->
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <div id="login">Đăng nhập</div>
+                <div class="input">
+
+                    <label for="account-name">Tên đăng nhập</label><br>
+                    <input id="singin-input" name="account-name" placeholder="Enter your account" required><br>
+                    
+                    <label for="password-name">Mật khẩu</label><br>
+                    <input id="singin-input" name="password-name" placeholder="Enter your password" required>
+
+                </div>
+            
+            </div>
+
+        </div>
+
+        <script src="slideShow.js"></script>
+        <script>
+
+            $(document).ready(function() {
+                $("#singin-button").click(function() {
+                    alert("Bạn đã đăng nhập");
+                });
+            });
+
+            $(document).ready(function() {
+                $("#login-button").click(function() {
+                    alert("Bạn đã đăng ký");
+                });
+            });
+
+        </script>
+
+    </body>
+
+</html>
